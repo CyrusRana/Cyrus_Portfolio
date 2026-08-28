@@ -95,3 +95,20 @@ nav{
 .project-card:hover {
     transform: translateY(-5px);
 }
+
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-item {
+    padding: 10px 18px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.skill-item:hover {
+    background-color: #333;
+    color: white;
+}
