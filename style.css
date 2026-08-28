@@ -48,3 +48,19 @@ button{
     border: none;
     border-radius: 5px;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a:hover {
+    color: darkgray;
+}
